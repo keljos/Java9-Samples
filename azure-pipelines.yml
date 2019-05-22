@@ -8,13 +8,13 @@ trigger:
 
 jobs:
   - job: firsttestjob
-    pool: 'Default'
+    pool: 'Hosted'
     steps:
     - script: 'echo $(python.version)'
     displayName: 'Command Line Script'
   - job: secondtestjob
     displayName: displayforsecondtestjob
-    pool: 'Default'
+    pool: 'Hosted'
     steps:
     - script: 'echo $(python.version)'
       displayName: 'Command Line Script'
