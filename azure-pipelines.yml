@@ -16,3 +16,5 @@ steps:
   displayName: 'Command Line Script 2'
 - script: 'echo $(python.version)'
   displayName: 'Command Line Script 3'
+- script: 'echo $(python.version)'
+  displayName: 'Command Line Script 3'
